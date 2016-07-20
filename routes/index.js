@@ -6,4 +6,9 @@ router.get('/cat', function(req, res, next) {
   res.send("Meow, I'm a cat");
 });
 
+router.get('/dog', function(req,res,next){
+  console.log('dog');
+  res.send('Dog went bark');
+})
+
 module.exports = router;
