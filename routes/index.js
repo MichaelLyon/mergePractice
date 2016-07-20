@@ -7,6 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/dog', function(req,res,next){
+  console.log('dog');
   res.send('Dog went bark');
 })
 
