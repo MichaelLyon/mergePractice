@@ -11,4 +11,8 @@ router.get('/dog', function(req,res,next){
   res.send('Dog went bark');
 })
 
+router.get('/dog/cat', function(req,res,next){
+  res.send('Merge This');
+})
+
 module.exports = router;
